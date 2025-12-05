@@ -1,0 +1,20 @@
+# Pyth
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# mmdetection specific
+mmdetection/data/
+mmdetection/work_dirs/
+mmdetection/checkpoints/
+mmdetection/output/
+mmdetection/build/
+mmdetection/mmdet.egg-info/
+
+# Large model / logs
+*.log
+*.pth
+*.pt
+*.pkl
+*.ckpt

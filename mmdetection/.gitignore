@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual env / conda stuff (如果有本地虚拟环境)
+.venv/
+venv/
+env/
+
+# OS
+.DS_Store
+
+# Logs
+logs/
+*.log
+
+# Checkpoints / weights / training outputs
+*.pth
+*.pt
+checkpoints/
+work_dirs/
+
+# Datasets（按你实际数据目录命名）
+data/
+datasets/
+dataset_yola_testrun/
+*.zip
+*.tar
+*.tar.gz
+
+# Jupyter
+.ipynb_checkpoints/
