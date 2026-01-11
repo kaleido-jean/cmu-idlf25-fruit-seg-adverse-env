@@ -9,9 +9,15 @@ We compared two robustness pipelines:
 ### (A) Illumination-invariant feature learning (feature-level robustness)
 - Insert an **Illumination-Invariant Module (IIM)** (from **YOLA**) before an off-the-shelf detector.
 - Goal: learn features less sensitive to illumination changes.
+<p align="center">
+  <img src="pipeline1.png" alt="pipeline 1" width=600>
+</p>
 
 ### (B) Image pre-processing (input-level robustness)
-- Apply a low-light enhancement / differentiable image processing front-end (tested: **SGZ**, attempted: **IA-YOLO-style**), then run the detector/segmenter.
+- Apply a low-light enhancement / differentiable image processing front-end (tested: **SGZ**, attempted: **IA-YOLO**), then run the detector/segmenter.
+<p align="center">
+  <img src="pipeline2.png" alt="pipeline 2" width=600>
+</p>
 
 Both pipelines evaluate on normal-light training plus adverse-condition testing.
 
